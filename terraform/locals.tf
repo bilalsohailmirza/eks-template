@@ -1,0 +1,9 @@
+locals {
+  env    = "staging"
+  region = "us-east-2"
+  zone1  = "us-east-2a"
+  zone2  = "us-east-2b"
+  eks_name = "test"
+  eks_version = "1.35"
+
+}
